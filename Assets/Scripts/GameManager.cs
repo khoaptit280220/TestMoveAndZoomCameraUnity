@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public bool Rotate;
     protected Plane Plane;
 
-    private void Update()
+    private void LateUpdate()
     {
         //Update Plane
         if (Input.touchCount >= 1)
